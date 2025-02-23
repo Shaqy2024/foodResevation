@@ -30,7 +30,7 @@ toast.error("All Fields are Required");
 }else{  
 
   console.log(fastName,LastName,data,tiem,email,phone); 
- let result = await fetch(https://foodresevation.onrender.com/risebation,{
+ let result = await fetch("https://foodresevation.onrender.com/risebation",{
   method:"post",
   body:JSON.stringify({fastName,LastName,data,tiem,email,phone}),
   headers:{
