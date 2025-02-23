@@ -8,6 +8,7 @@ app.use(express.json());
 app.use(cors(
     {
         origin: "https://food-resevation-wziq.vercel.app",
+        methods: "GET,post",
         credentials: true
 
     }
