@@ -26,6 +26,11 @@ const HeroSection = () => {
         </div>
         <div className="banner">
           <div className="imageBox">
+             <div class="fixes-bottom right-100 p-3" style={{ xIndex:'6',left:'initial', position:'fixed', bottom:'15px', right:'15px'}}>  
+<a href = "https://wa.me/917303909682?text=hello how can help you ?" target="_blank">
+<img  src="https://static.cdnlogo.com/logos/w/29/whatsapp-icon.svg" style={{width : "70px"}} />
+</a>
+</div>
             <img src="hero2.png" alt="hero" />
           </div>
           <h1 className="title dishes_title">Dishes</h1>
