@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors(
     {
-        origin: "https://food-resevation-8a7n.vercel.app",
+        origin: "https://food-resevation-8a7n-74rvs6eof-sakibs-projects-b9aac051.vercel.app",
         methods: "GET,POST",
         credentials: true
 
